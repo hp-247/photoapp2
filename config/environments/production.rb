@@ -85,7 +85,7 @@ Rails.application.configure do
 
   config.action_mailer.delivery_method = :smtp
 
-  config.action_mailer.default_url_options = { :host => 'henryphotoapp2.herokuapp.com', :protocol => 'https'}
+  config.action_mailer.default_url_options = { :host => 'henrytesting.herokuapp.com', :protocol => 'https'}
 
   if ENV["RAILS_LOG_TO_STDOUT"].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
